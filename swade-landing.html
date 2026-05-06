@@ -703,6 +703,7 @@
     background: rgba(124,255,79,0.18); height: 0%; transition: height 1.8s ease; pointer-events: none; z-index: 0;
   }
   #why-now.in-view::before { height: 100%; }
+  @media (max-width: 768px) { #why-now::before { display: none; } }
   #validation { position: relative; overflow: hidden; }
   #validation::after {
     content: "TechCrunch · iHeart Radio · AlleyWatch · Silicon Review · CIO Outlook · TechCrunch · iHeart Radio · AlleyWatch · Silicon Review · CIO Outlook ·";
